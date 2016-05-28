@@ -1,3 +1,5 @@
+# Put this in the same folder as name_collisions.py for a quick demo!
+
 from name_collisions import find_collisions, remove_collisions
 
 demo_list = []
