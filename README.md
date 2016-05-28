@@ -15,6 +15,8 @@ Output is a list in the same order as the original in_list, but with collisions 
 
 It's not a terribly pretty output, but at least you know that each one is unique.
 
+Throw name_collisions_demo.py in the same folder as name_collisions.py for a quick demo.
+
 A couple of notes:
 
 Things start to get screwy if the incrementing numbers themselves start to get longer than the max_length.  I tried to figure out a way to detect and stop this but haven't come across one yet.  But I think if you are working under such tiny length constraints you are going to have to take a radically different approach anyway.
